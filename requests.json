@@ -1,0 +1,192 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2022-07-28T01:30:00.644Z",
+    "__export_source": "insomnia.desktop.app:v2021.7.2",
+    "resources": [
+        {
+            "_id": "req_0d1f1e104a984498a62bd336441f43f3",
+            "parentId": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "modified": 1658971274177,
+            "created": 1658968504073,
+            "url": "{{ _.default }}/3SgiCAfqu",
+            "name": "Remove",
+            "description": "",
+            "method": "DELETE",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1658968504073,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "parentId": null,
+            "modified": 1658415371454,
+            "created": 1658415371454,
+            "name": "Shortner",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_4e7d6882598a4fdaa1a17e494b7d3ab5",
+            "parentId": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "modified": 1658971339552,
+            "created": 1658417803950,
+            "url": "{{ _.default }}/-1ZYa19xM",
+            "name": "Get URL",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1658967410117,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b4cb35ca67854e7f97624cb980dde9c9",
+            "parentId": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "modified": 1658970466317,
+            "created": 1658967410067,
+            "url": "{{ _.default }}/",
+            "name": "List shorten URLs",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1658967410067,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_02a293fe37ae47edabe04e71aa3aa216",
+            "parentId": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "modified": 1658971318106,
+            "created": 1658415402817,
+            "url": "{{ _.default }}/{{ _.create }}https://ge.globo.com/",
+            "name": "Create",
+            "description": "",
+            "method": "PUT",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1658415402817,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_6f2a019aaf354400ba53cf8051270daa",
+            "parentId": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "modified": 1658968481604,
+            "created": 1658968481604,
+            "url": "{{ _.default }}/{{ _.create }}google.com.br&CUSTOM_ALIAS=meu-git",
+            "name": "Create with ALIAS",
+            "description": "",
+            "method": "PUT",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1649649934461,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_fa309bf6a77341debb3f8e63cd82bf75",
+            "parentId": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "modified": 1658415371456,
+            "created": 1658415371456,
+            "name": "Base Environment",
+            "data": {
+                "base_url": "http://localhost:3333"
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "base_url"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1640826683634,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_8f719ac08fc74ac99d4a07018fbd4022",
+            "parentId": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "modified": 1658971772650,
+            "created": 1658415371459,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_1815aa8ac19f486c90bbdf887338a0e5",
+            "parentId": "wrk_04e9117edfb645dd8d6cb9879de4f38e",
+            "modified": 1658415371531,
+            "created": 1658415371460,
+            "fileName": "Shortner",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        },
+        {
+            "_id": "env_d4b24107d66f4b1fb48811236c690232",
+            "parentId": "env_fa309bf6a77341debb3f8e63cd82bf75",
+            "modified": 1658971737805,
+            "created": 1658415371456,
+            "name": "Shortner",
+            "data": {
+                "default": "http://localhost:3000",
+                "create": "create?url="
+            },
+            "dataPropertyOrder": {
+                "&": [
+                    "default",
+                    "create"
+                ]
+            },
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1658415308669,
+            "_type": "environment"
+        }
+    ]
+}
